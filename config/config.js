@@ -24,15 +24,11 @@ module.exports = {
    */
   description:
     "Searches on LinkedIn for Public Content",
-  entityTypes: ['hash','ip','domain'],
+  entityTypes: ['hash','ip','domain','cve'],
   customTypes:[
     {
       key: 'kb',
       regex: /KB\s?[0-9]{7}/
-    },
-    {
-      key: 'cve',
-      regex: /CVE-(1999|2\d{3})-(0\d{2}[1-9]|[1-9]\d{3,})/
     },
     {
       key: 'all text',
@@ -43,7 +39,7 @@ module.exports = {
       regex: /@(\w){1,24}/
     }
   ],
-  defaultColor: 'light-gray',
+  defaultColor: 'light-blue',
   /**
    * Provide custom component logic and template for rendering the integration details block.  If you do not
    * provide a custom template and/or component then the integration will display data as a table of key value
