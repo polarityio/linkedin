@@ -22,10 +22,9 @@ module.exports = {
    * @type String
    * @optional
    */
-  description:
-    "Searches on LinkedIn for Public Content",
-  entityTypes: ['hash','ip','domain','cve'],
-  customTypes:[
+  description: 'Searches on LinkedIn for Public Content',
+  entityTypes: ['MD5', 'SHA1', 'SHA256', 'IPv4', 'IPv6', 'domain', 'cve'],
+  customTypes: [
     {
       key: 'kb',
       regex: /KB\s?[0-9]{7}/
@@ -72,7 +71,7 @@ module.exports = {
     ca: '',
     // An HTTP proxy to be used. Supports proxy Auth with Basic Auth, identical to support for
     // the url parameter (by embedding the auth info in the uri)
-    proxy: ""
+    proxy: ''
   },
   logging: {
     level: 'info' //trace, debug, info, warn, error, fatal
