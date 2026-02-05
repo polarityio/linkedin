@@ -1,0 +1,72 @@
+{
+  "icons": {
+    "linkedin": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTI..."
+  },
+  "searchResults": {
+    "searchInformation": {
+      "searchTime": 0.234567,
+      "formattedSearchTime": "0.23",
+      "totalResults": "847",
+      "formattedTotalResults": "847"
+    },
+    "items": [
+      {
+        "kind": "customsearch#result",
+        "icon": "linkedin",
+        "displayLink": "www.linkedin.com",
+        "title": "John Doe - Chief Security Officer - Acme Corp | LinkedIn",
+        "htmlTitle": "<b>John Doe</b> - Chief Security Officer - Acme Corp | LinkedIn",
+        "link": "https://www.linkedin.com/in/johndoe/",
+        "snippet": "View John Doe's profile on LinkedIn, the world's largest professional community. John has 10+ years of experience in cybersecurity...",
+        "htmlSnippet": "View <b>John Doe's</b> profile on LinkedIn, the world's largest professional community. John has 10+ years of experience in <b>cybersecurity</b>...",
+        "cacheId": "abc123xyz",
+        "formattedUrl": "https://www.linkedin.com/in/johndoe/",
+        "htmlFormattedUrl": "https://www.linkedin.com/in/<b>johndoe</b>/"
+      },
+      {
+        "kind": "customsearch#result",
+        "icon": "linkedin",
+        "displayLink": "www.linkedin.com",
+        "title": "Jane Smith - Senior Threat Intelligence Analyst | LinkedIn",
+        "htmlTitle": "<b>Jane Smith</b> - Senior Threat Intelligence Analyst | LinkedIn",
+        "link": "https://www.linkedin.com/in/janesmith/",
+        "snippet": "Jane Smith's professional profile. Experienced threat analyst specializing in APT detection and malware analysis. Previously worked at...",
+        "htmlSnippet": "<b>Jane Smith's</b> professional profile. Experienced threat analyst specializing in <b>APT detection</b> and malware analysis...",
+        "cacheId": "def456uvw",
+        "formattedUrl": "https://www.linkedin.com/in/janesmith/",
+        "htmlFormattedUrl": "https://www.linkedin.com/in/<b>janesmith</b>/"
+      },
+      {
+        "kind": "customsearch#result",
+        "icon": "linkedin",
+        "displayLink": "www.linkedin.com",
+        "title": "Bob Johnson - Incident Response Manager - SecureNet | LinkedIn",
+        "htmlTitle": "<b>Bob Johnson</b> - Incident Response Manager - SecureNet | LinkedIn",
+        "link": "https://www.linkedin.com/in/bobjohnson/",
+        "snippet": "Bob Johnson leads incident response team at SecureNet. Certified in CISSP, CEH, and GCIH. Expert in digital forensics and threat hunting...",
+        "htmlSnippet": "<b>Bob Johnson</b> leads incident response team at SecureNet. Certified in CISSP, CEH, and GCIH. Expert in <b>digital forensics</b>...",
+        "cacheId": "ghi789rst",
+        "formattedUrl": "https://www.linkedin.com/in/bobjohnson/",
+        "htmlFormattedUrl": "https://www.linkedin.com/in/<b>bobjohnson</b>/"
+      }
+    ],
+    "queries": {
+      "request": [
+        {
+          "title": "Google Custom Search - test@example.com",
+          "totalResults": "847",
+          "searchTerms": "test@example.com",
+          "count": 10,
+          "startIndex": 1,
+          "inputEncoding": "utf8",
+          "outputEncoding": "utf8",
+          "safe": "off",
+          "cx": "0429b9e2e8aac5810"
+        }
+      ]
+    },
+    "context": {
+      "title": "LinkedIn Search"
+    }
+  }
+}
